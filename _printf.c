@@ -58,6 +58,7 @@ int _printf(const char *format, ...)
  * @buffer: Array of chars
  * @buff_ind: Index
  */
+
 void print_buffer(char buffer[], int *buff_ind)
 {
 	if (*buff_ind > 0)
